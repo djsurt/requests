@@ -9,6 +9,14 @@
 
 [Our Storyboard Team](https://model.earth/projects/), led by Kishor and Anthony, has created a Streamlit application that transforms text prompts into storyboard gallery images and videos using the Replicate, Leonardo and other generative AI APIs. Users can enter a prompt or load prompts from a CSV file. Images are generated in different aspect ratios and can be saved directly to a GitHub repository for easy access and embedding using either our [JQuery Images and Video](https://model.earth/data-pipeline/research/stream/) or [React Gallery](https://model.earth/react-gallery/view/).
 
+TO TRY: [Image Generation with Open WebUI](https://docs.openwebui.com/tutorial/images/)
+
+ALSO: [Open WebUI without Docker](https://docs.openwebui.com/getting-started/)
+
+TO DO: Update our Readme to one that supports [NOTE], [WARNING], [TIP]
+[Current display](https://model.earth/projects/src/) and [proper display](https://github.com/open-webui/open-webui)
+
+
 ### Features
 
 - **Prompt Selection**: Users can choose from a variety of predefined prompts listed in a CSV file.
