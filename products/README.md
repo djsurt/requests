@@ -66,3 +66,7 @@ The "ISIC_Description" column provides a description of each ISIC category.
 The "Chinese_Sector_Code" column lists the corresponding numerical sector codes in the Chinese classification system.
 The "Chinese_Sector_Description" column provides a description of each corresponding Chinese sector.
 -->
+
+# Our prompt for top 10 products
+
+I'm working on a soultion to environmnetal impacts caused by [Product] with my [new cat and pet pig] in [New Orleans]
