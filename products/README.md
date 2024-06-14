@@ -1,4 +1,4 @@
-# Harmonize System (HS)
+# Harmonized System (HS)
 
 [How to use R-Language libraries in a Python CoLab (2nd example)](https://www.geeksforgeeks.org/how-to-use-r-with-google-colaboratory/)
 
