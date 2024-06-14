@@ -1,7 +1,6 @@
 # Harmonize System (HS)
 
-[How To R in CoLab (2nd way)](https://www.geeksforgeeks.org/how-to-use-r-with-google-colaboratory/)
-We're running Python and RLanguage in the same CoLab. 
+[How to use R-Language libraries in a Python CoLab (2nd example)](https://www.geeksforgeeks.org/how-to-use-r-with-google-colaboratory/)
 
 [Our CoLab](https://colab.research.google.com/drive/1etpn1no8JgeUxwLr_5dBFEbt8sq5wd4v?usp=sharing)
 
@@ -66,7 +65,9 @@ The "ISIC_Description" column provides a description of each ISIC category.
 The "Chinese_Sector_Code" column lists the corresponding numerical sector codes in the Chinese classification system.
 The "Chinese_Sector_Description" column provides a description of each corresponding Chinese sector.
 -->
+<br>
 
 # Our prompt for top 10 products
 
-I'm working on a soultion to environmnetal impacts caused by [Product] with my [new cat and pet pig] in [New Orleans]
+Prompt:
+"I'm working on a solution to reduce environmental impacts caused by [product] in [location] with my [pet]"
