@@ -24,6 +24,13 @@ TO DO: Update our Readme to one that supports [NOTE], [WARNING], [TIP]
 - **Multiple Aspect Ratios**: Supports the creation of images in square and horizontal formats.
 - **GitHub Integration**: Automatically saves generated images to a specified GitHub repository.
 
+
+## TO DO
+
+Add support for third-party Midjourney APIs
+[mymidjourney.ai](https://mymidjourney.ai/)
+[imagineapi.dev](https://www.imagineapi.dev/pricing)
+
 ## Getting Started
 
 ### Prerequisites
