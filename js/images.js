@@ -1,6 +1,6 @@
 $(document).ready(function() {
     const owner = 'modelearth'; // owner_username
-    const repo = 'replicate'; // repository_name
+    const repo = 'requests'; // repository_name
     const branch = 'main'; // or whichever branch you want to access
 
     // Make AJAX request to GitHub API to get list of files
