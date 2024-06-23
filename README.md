@@ -5,7 +5,7 @@ Contributors: Kishor and Anthony
 <img src="images/ME-Naics-7225-A-small-honey-bee-is-near-a_wide.jpg" alt="Streamlit Replicate Image App" style="width:100%;max-width:400px">
 
 <!-- to do: activate display:none -->
-<a href="https://github.com/modelearth/replicate" style="float:right;displayX:none" class="hideGit">Fork on GitHub</a>
+<a href="https://github.com/modelearth/requests" style="float:right;displayX:none" class="hideGit">Fork on GitHub</a>
 
 # Storyboard Generator
 
@@ -21,6 +21,7 @@ Enter a prompt or load prompts from a CSV file. Images are generated in differen
 TO TRY:
 [Image Generation within Open WebUI](https://docs.openwebui.com/tutorial/images/)
 [Open WebUI install with and without Docker](https://docs.openwebui.com/getting-started/)
+[Our install note](/projects/)
 
 
 ### Features
@@ -75,17 +76,18 @@ The GITHUB_REPOSITORY would be one your own repo, in this format:
 5.) Set your Replicate API Token in .streamlit/secrets.toml. 
 
 You can get a free [Replicate API Token](https://replicate.com/docs/reference/http#authentication), but they are slow. [Purchased tokens](https://replicate.com/pricing) are affordable.
+Avoid pasting the "bearer" portion.
 
 6.) Update the CSV file with your prompts.
 
-7.) Run the Streamlit app:
-   ```bash
-   streamlit run streamlit_app.py
-   ```
-Or run the .csv prompt input version:
-   ```bash
-   streamlit run code_gen_images_sq_wide_ME.py
-   ```
+7.) Run our .csv prompt input version:
+
+      streamlit run code_gen_images_sq_wide_ME.py
+
+Or Run the Streamlit app:
+
+      streamlit run streamlit_app.py
+
 
 8.) Open the Streamlit app in your web browser.
 
