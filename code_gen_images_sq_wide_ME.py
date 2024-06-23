@@ -13,7 +13,7 @@ st.set_page_config(page_title="Replicate Image Generator based on CSV Input", pa
 REPLICATE_API_TOKEN = st.secrets["REPLICATE_API_TOKEN"]
 REPLICATE_MODEL_ENDPOINTSTABILITY = st.secrets["REPLICATE_MODEL_ENDPOINTSTABILITY"]
 GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]
-GITHUB_REPOSITORY = "mannurkishorreddy/streamlit-replicate-img-app"
+GITHUB_REPOSITORY = "modelearth/requests"
 
 # Function to convert the image to JPEG
 def convert_to_jpeg(image_content):

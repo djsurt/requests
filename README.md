@@ -1,14 +1,3 @@
-<!--
-Contributors: Kishor and Anthony
--->
-
-<img src="images/ME-Naics-7225-A-small-honey-bee-is-near-a_wide.jpg" alt="Streamlit Replicate Image App" style="width:100%;max-width:400px">
-
-<!-- to do: activate display:none -->
-<a href="https://github.com/modelearth/requests" style="float:right;displayX:none" class="hideGit">Fork on GitHub</a>
-
-# Storyboard Generator
-
 ## Loads prompts from CSV files / Outputs to GitHub
 
 A Streamlit application that transforms text prompts in CSV files into storyboard images.
@@ -18,12 +7,6 @@ using the Replicate, Leonardo and other generative AI APIs.
 
 Enter a prompt or load prompts from a CSV file. Images are generated in different aspect ratios and can be saved directly to a GitHub repository for display in our [JQuery Gallery](https://model.earth/data-pipeline/research/stream/) or [React Gallery](https://model.earth/react-gallery/view/).
 
-TO TRY:
-[Image Generation within Open WebUI](https://docs.openwebui.com/tutorial/images/)
-[Open WebUI install with and without Docker](https://docs.openwebui.com/getting-started/)
-[Our install note](/projects/)
-
-
 ### Features
 
 - **Prompt Selection**: Users can choose from a variety of predefined prompts listed in a CSV file.
@@ -32,11 +15,14 @@ TO TRY:
 - **GitHub Integration**: Automatically saves generated images to a specified GitHub repository.
 
 
-## TO DO
+## Upcoming To Do's
 
-Add support for third-party Midjourney APIs
-[mymidjourney.ai](https://mymidjourney.ai/)
-[imagineapi.dev](https://www.imagineapi.dev/pricing)
+- [Image Generation within Open WebUI](https://docs.openwebui.com/tutorial/images/)
+- [Open WebUI install with and without Docker](https://docs.openwebui.com/getting-started/) - [Our OpenWebUI install notes](../projects/src/)
+
+### Add support for Midjourney's third-party APIs
+- [mymidjourney.ai](https://mymidjourney.ai/)
+- [imagineapi.dev](https://www.imagineapi.dev/pricing)
 
 ## Getting Started
 
@@ -84,7 +70,7 @@ Avoid pasting the "bearer" portion.
 
       streamlit run code_gen_images_sq_wide_ME.py
 
-Or Run the Streamlit app:
+Or run the [original Streamlit app](https://github.com/tonykipkemboi/streamlit-replicate-img-app) (without CSV inout and output to GitHub):
 
       streamlit run streamlit_app.py
 

@@ -7,7 +7,6 @@ import pandas as pd
 #api_key = st.secrets['leonardo_api_key']
 #model_id = st.secrets['leonardo_model_id']
 github_token = st.secrets["github_token_leonardo"]
-#github_repository = "mannurkishorreddy/streamlit-replicate-img-app"
 github_repository = "modelearth/requests"
 
 # Function to generate images with specified aspect ratios
