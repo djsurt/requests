@@ -55,9 +55,7 @@ GITHUB\_REPOSITORY
 To create a GITHUB_TOKEN, in GitHub.com go to: Settings -> Developer Settings -> [Personal access tokens](https://github.com/settings/tokens).  
 Checking the first three checkboxes should suffice: repo, workflow and write:packages
 
-The GITHUB_REPOSITORY would be one your own repo, in this format:
-
-   https://github.com/[your account]/[your repo]
+The GITHUB_REPOSITORY would be your own repo, in this format: [your account]/[your repo]
 
 5.) Set your Replicate API Token in .streamlit/secrets.toml. 
 
@@ -70,12 +68,12 @@ Avoid pasting the "bearer" portion.
 
       streamlit run code_gen_images_sq_wide_ME.py
 
-Or run the [original Streamlit app](https://github.com/tonykipkemboi/streamlit-replicate-img-app) (without CSV inout and output to GitHub):
+Or run the [original Streamlit app](https://github.com/tonykipkemboi/streamlit-replicate-img-app) (without CSV input, nor output to GitHub):
 
       streamlit run streamlit_app.py
 
 
-8.) Open the Streamlit app in your web browser.
+8.) The Streamlit app should open automatically in your web browser at port 5 something.
 
 9.) Use the sidebar to select a prompt from the CSV file.
 

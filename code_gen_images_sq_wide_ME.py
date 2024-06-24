@@ -13,7 +13,7 @@ st.set_page_config(page_title="Replicate Image Generator based on CSV Input", pa
 REPLICATE_API_TOKEN = st.secrets["REPLICATE_API_TOKEN"]
 REPLICATE_MODEL_ENDPOINTSTABILITY = st.secrets["REPLICATE_MODEL_ENDPOINTSTABILITY"]
 GITHUB_TOKEN = st.secrets["GITHUB_TOKEN"]
-GITHUB_REPOSITORY = "modelearth/requests"
+github_repository = st.secrets["GITHUB_REPOSITORY"]
 
 # Function to convert the image to JPEG
 def convert_to_jpeg(image_content):
@@ -87,7 +87,7 @@ def main():
                             save_image_to_github(
                                 jpeg_content, 
                                 filename, 
-                                GITHUB_REPOSITORY, 
+                                github_repository, 
                                 "images", 
                                 commit_message, 
                                 GITHUB_TOKEN
