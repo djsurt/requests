@@ -1,3 +1,4 @@
+[International Trade](/useeio.js/footprint/)
 # Harmonized System (HS)
 
 [How to use R-Language libraries in a Python CoLab (2nd example)](https://www.geeksforgeeks.org/how-to-use-r-with-google-colaboratory/)
@@ -33,6 +34,8 @@ Chinese-Sector-Code (2-digits)
 Chinese-Sector-Description
 
 ## Chinese Sector Codes
+
+From ChatGPT, so they may be incorrect...
 
 <pre style="font-size: 12px;">
 ISIC-Code, ISIC-Description, Chinese-Sector-Code, Chinese-Sector-Description  
