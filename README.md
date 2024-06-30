@@ -40,11 +40,19 @@ Enter a prompt or load prompts from a CSV file. Images are generated in differen
 
 2.) Navigate to the directory, start a virtual env, and install the required packages:
    
+   For mac:
+
    ```bash
-   python3 -m venv env && source env/bin/activate &&
+   python3 -m venv env && 
+   source env/bin/activate &&
    pip install -r requirements.txt
    ```
-
+   For windows:
+```bash
+   python3 -m venv env && 
+   env\Scripts\activate &&
+   pip install -r requirements.txt
+   ```
 3.) Save a copy of example_secrets.toml as secrets.toml
 
 4.) If you will be sending files to your GitHub account, in .streamlit/secrets.toml add:
