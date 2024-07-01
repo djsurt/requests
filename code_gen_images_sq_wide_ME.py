@@ -5,6 +5,7 @@ import base64
 import requests
 import io
 from PIL import Image
+import time
 
 # UI configurations
 st.set_page_config(page_title="Replicate Image Generator based on CSV Input", page_icon="🌟")
@@ -82,7 +83,9 @@ def main():
                         response = requests.get(output[0])
                         if response.status_code == 200:
                             jpeg_content = convert_to_jpeg(response.content)
-                            filename = f"ME-Naics-{naics_value}-{first_five_words}_{suffix}.jpg"
+
+                            time_stamp = int(time.time())
+                            filename = f"ME-Naics-{naics_value}-{first_five_words}_{suffix}_{time_stamp}.jpg"
                             commit_message = "Add generated image"
                             save_image_to_github(
                                 jpeg_content, 
